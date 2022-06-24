@@ -1,20 +1,25 @@
-class Whileloop2
+class While_loop_odd
        {
 
                         
+
                  public static void main(String args[])
                    { 
 
-                      int i=1;
-                       System.out.println("\n\t\tNUMBER\t\t\tSQUARE  ");
-                        while(i<=20) 
+                      int i;
+                       i=31;  // initilization
+                        while(i<=120) 
                           {
-                               
-                                 System.out.print("\n\t\t"+i+"\n"+"\t\t\t\t\t"+(i*i));
+                                if(i%2!=0)
+                                 System.out.print(i+" ");
                             
                           i++;
 
                            }
                           
                      }
-         }
+             
+
+
+       }
+
